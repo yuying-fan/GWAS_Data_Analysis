@@ -1,5 +1,4 @@
-#s
-#GWAS in TASSEL 5
+# GWAS in TASSEL 5
 
 ## The overall assembly process:
 
