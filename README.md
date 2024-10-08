@@ -1,4 +1,5 @@
 This is a repository for the genome wide association study (GWAS) protocol I conducted during my MSc program at McMaster University, in Dr. Jianping Xu's lab *([University Profile](https://experts.mcmaster.ca/display/jpxu), [Lab Website](https://xulabmcmaster.wordpress.com/pi-biography/))*. 
+
 Below is a table of content:
 
 **GWAS**
