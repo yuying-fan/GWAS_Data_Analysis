@@ -6,10 +6,10 @@ This protocol was used as the foundation for three of my published papers <sup>[
 
 ## Table of content - GWAS:
 
-- 3.1.WholeGenomeSequences
-- 3.2.QualityControlandTrimming
-- 3.3.AlignmentandVariantCalling
-- 3.4.QualityControlandPreppingforAssociationAnalysis
-- 3.5.GWASwithPlinkandTassel
-- 3.6.VisualizationofGWASResults
-- 3.7.SingleNucleotidePolymorphismAnnotation
+- 1. Whole Genome Sequences
+- 2. Quality Control and Trimming
+- 3. Alignment and Variant Calling
+- 4. Quality Control and Prep for Association Analysis
+- 5. GWAS with Plink and Tassel
+- 6. Visualization of GWAS Results
+- 7. SNP Annotation
