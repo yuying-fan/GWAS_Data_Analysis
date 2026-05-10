@@ -26,8 +26,8 @@ To document a reproducible, cluster-deployable GWAS pipeline covering:
 
 >### Scope
 >
-> This protocol was developed for haploid fungal genomes (*A. fumigatus*). It uses a subset of *A. fumigatus* isolates for coursework demonstration; but these methods were used as the foundation for full-cohort analyses underlying my MSc thesis and the linked publications.
-> Core tools: `FastQC`, `Trimmomatic`, `BWA`, `samtools`, `GATK`, `vcftools`, `PLINK`, `TASSEL`, and `R` for visualization and downstream annotation.
+> This protocol was developed for haploid fungal genomes (*A. fumigatus*) and run on an HPC cluster (scratch storage; long-running jobs sent to the background with `nohup`). It uses a subset of *A. fumigatus* isolates for coursework demonstration; but these methods were used as the foundation for full-cohort analyses underlying my MSc thesis and the linked publications.
+> Core tools: `SRAtoolkit`, `FastQC`, `MultiQC`, `Trimmomatic`, `BWA`, `samtools`, `Picard`, `FreeBayes`, `vcftools`, `PLINK`, `TASSEL`, `SnpEff`, and `R` for visualization and downstream annotation.
 
 ## Folder Structure
 
