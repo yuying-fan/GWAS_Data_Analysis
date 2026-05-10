@@ -45,18 +45,17 @@ GWAS-Aspergillus/
 ```
 
 ## File Contents
-
-`1.Whole_Genome_Sequences.md` - Sample retrieval from NCBI, *A. fumigatus* reference genome download and BWA indexing
-`2.Quality_Control_and_Trimming.md` - Pre-alignment QC, adapter and quality trimming, post-trim re-QC
-`3.Alignment_and_Variant_Calling.md` - Alignment to the reference genome, sorting, deduplication, haploid variant calling
-`4.Quality_Control_and_Prep_for_Association_Analysis.md` - Variant filtering, LD pruning, clonal-strain removal, phenotype-file preparation
-`5.GWAS_with_Plink_and_Tassel.md` - Association testing in PLINK (linear regression) and TASSEL (GLM)
-`6.Visualization_of_GWAS_Results.md` — Manhattan plots, QQ plots
-`7.SNP_Annotation.md` - Top 10 SNP extraction by p-value (for PLINK and TASSEL), variant annotation, gene-function lookup 
+- `1.Whole_Genome_Sequences.md` - Sample retrieval from NCBI, *A. fumigatus* reference genome download and BWA indexing
+- `2.Quality_Control_and_Trimming.md` - Pre-alignment QC, adapter and quality trimming, post-trim re-QC  
+- `3.Alignment_and_Variant_Calling.md` - Alignment to the reference genome, sorting, deduplication, haploid variant calling  
+- `4.Quality_Control_and_Prep_for_Association_Analysis.md` - Variant filtering, LD pruning, clonal-strain removal, phenotype-file preparation
+- `5.GWAS_with_Plink_and_Tassel.md` - Association testing in PLINK (linear regression) and TASSEL (GLM)
+- `6.Visualization_of_GWAS_Results.md` — Manhattan plots, QQ plots
+- `7.SNP_Annotation.md` - Top 10 SNP extraction by p-value (for PLINK and TASSEL), variant annotation, gene-function lookup 
 
 ## Publications & Presentations
 
-**Peer-reviewed publications built on this pipeline:**
+**Peer-reviewed publications building on this pipeline:**
 - [Paper 1 — PMC7713013](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7713013/)
 - [Paper 2 — PMC8227032](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8227032/)
 - [Paper 3 — PMC8538161](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8538161/)
