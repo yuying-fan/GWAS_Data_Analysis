@@ -60,5 +60,5 @@ GWAS_Data_Analysis/
 - [Paper 2 — PMC8227032](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8227032/)
 - [Paper 3 — PMC8538161](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8538161/)
 
-**Conference presentation:**
+**Conference presentation:**  
 *"Genomic and Genetic Analyses of Antifungal Drug Resistance in Aspergillus fumigatus"* - 31st Fungal Genetics Conference, 2022 ([program book](https://genetics-gsa.org/fungal-2022/wp-content/uploads/sites/36/2022/03/220316-Fungal22-Program-Book-v3.pdf)). Poster presented by Dr. Jianping Xu; contents drafted by Yuying Fan based on MSc thesis work.
