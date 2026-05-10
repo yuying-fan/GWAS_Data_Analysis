@@ -1,6 +1,6 @@
 # GWAS Pipeline for Antifungal Drug Resistance in *Aspergillus fumigatus*
-**Author:** Yuying Fan
-**Pipeline developed during MSc, McMaster University (Dr. Jianping Xu's lab)**
+_Author: Yuying Fan_  
+_Pipeline developed during MSc at McMaster University in Dr. Jianping Xu's lab, 2019-2021_  
 
 ## Project Aim - Reproducible Genome-Wide Association Pipeline for Fungal Drug Resistance Discovery
 This project began as a graduate-course assignment for BIO722 (*Introduction to Bioinformatic Methods*) at McMaster University, where the pipeline was developed and run on a high-performance computing cluster using a curated subset of samples. The protocol was subsequently extended and applied at full scale to my MSc thesis work in Dr. Jianping Xu's lab ([University Profile](https://experts.mcmaster.ca/display/jpxu), [Lab Website](https://xulabmcmaster.wordpress.com/pi-biography/)), and became the foundation for three peer-reviewed publications ([1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7713013/), [2](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8227032/), [3](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8538161/)) and a conference poster presented at the 31st Fungal Genetics Conference (see *Publications & Presentations* below).
@@ -16,13 +16,13 @@ AMB resistance has historically been uncommon for a fungicidal agent. However, r
 Genome-wide association studies (GWAS) test for statistical association between common single-nucleotide polymorphisms (SNPs) and quantitative phenotypes such as minimum inhibitory concentrations (MICs). Applied across a wide range of clinical and environmental *A. fumigatus* isolates, GWAS can help determine novel resistance-associated loci beyond the canonical mechanisms - informing diagnostic marker development, surveillance strategies, and downstream functional studies.
 
 ## Objective
-To document a reproducible GWAS pipeline covering:
-- Preparation and organization of whole-genome sequencing reads with the associated MIC phenotype data
-- Quality control, adapter trimming, and reference alignment
-- Variant calling and additional QC/filtering steps
-- Genome-wide association testing using both PLINK (general linear models) and TASSEL (mixed linear models with kinship and population-structure covariates)
-- Visualization and inflation diagnostics for association results (Manhattan plots, QQ plots)
-- Functional annotation of significant SNPs
+To document a reproducible, cluster-deployable GWAS pipeline covering:
+- Preparing whole-genome sequencing reads and reference-genome
+- Read-level quality control, adapter trimming, and reference alignment
+- Variant calling, sample- and variant-level QC, and phenotype normalization to produce association-ready inputs
+- Genome-wide association testing on the normalized quantitative phenotype, using PLINK (linear regression) and TASSEL (GLM), using top principal components as covariates to control for population stratification
+- Visualization of association results (Manhattan and Q–Q plots)
+- Functional annotation of top SNPs and candidate-gene interpretation
 
 >### Scope
 >
