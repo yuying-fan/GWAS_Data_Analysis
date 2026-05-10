@@ -32,7 +32,7 @@ To document a reproducible, cluster-deployable GWAS pipeline covering:
 ## Folder Structure
 
 ```
-GWAS-Aspergillus/
+GWAS_Data_Analysis/
 ├── README.md
 ├── 1.Whole_Genome_Sequences.md
 ├── 2.Quality_Control_and_Trimming.md
